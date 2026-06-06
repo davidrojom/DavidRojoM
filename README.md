@@ -1,6 +1,6 @@
 # Hey, I'm David Rojo.
 
-A software developer based in Málaga, specialized in web technologies like NestJs, Astro, Angular, React ant Spring boot, among others.
+A software developer based in Málaga, specialized in web technologies like NestJs, Astro, Angular, React and Spring boot, among others.
 
 During my spare time, I thrive on building side-projects, tackling challenging problems, reading, attending and organizing meetups, and contributing to open source projects.
 
