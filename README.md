@@ -7,3 +7,6 @@ During my spare time, I thrive on building side-projects, tackling challenging p
 Additionally, I'm organizer of [GDGMalaga](https://gdg.community.dev/gdg-malaga/) and [Biznagafest](https://www.biznagafest.com/), a tech event that attracts over 800 attendees
 
 If you have any interesting projects or ideas that require collaboration, please feel free to reach out to me. I'm always eager to take on exciting new opportunities.
+
+![CommitVille](./commitville/night.png)
+![CommitVille](./commitville/day.png)

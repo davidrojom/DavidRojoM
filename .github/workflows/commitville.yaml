@@ -1,0 +1,19 @@
+name: CommitVille
+on:
+  schedule: [{ cron: "0 3 * * *" }] # daily at 03:00 UTC
+  workflow_dispatch: # manual run button
+permissions:
+  contents: write # required to commit the image back
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: davidrojom/CommitVille@v1
+        with:
+          username: ${{ github.repository_owner }}
+          modes: day,night
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update CommitVille city [skip ci]"
+          file_pattern: "commitville/*.png"
